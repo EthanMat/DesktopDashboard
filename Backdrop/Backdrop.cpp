@@ -2,7 +2,10 @@
 //
 
 #include "framework.h"
+#include <Windows.h>
+
 #include "Backdrop.h"
+#include "../Widgets/ClockWidget.h"
 
 #define MAX_LOADSTRING 100
 
@@ -75,7 +78,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.hInstance = hInstance;
     wcex.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_BACKDROP));
     wcex.hCursor = LoadCursor(nullptr, IDC_ARROW);
-    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);
+    wcex.hbrBackground = nullptr;
     wcex.lpszMenuName = nullptr;
     wcex.lpszClassName = szWindowClass;
     wcex.hIconSm = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_SMALL));
@@ -128,6 +131,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     switch (message)
     {
+    case WM_ERASEBKGND:
+        // Returning TRUE prevents the OS from erasing with a solid color,
+        // which preserves the DWM backdrop transparency.
+        return TRUE;
+
     case WM_COMMAND:
     {
         int wmId = LOWORD(wParam);
@@ -146,10 +154,13 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     {
         PAINTSTRUCT ps;
         BeginPaint(hWnd, &ps);
+        //Define Widgets
+        ClockWidget clock = ClockWidget(ps.hdc, 100, 100, 100, 100);
         // TODO: Add any drawing code here...
         FillRect(ps.hdc,
             &ps.rcPaint,
             CreateSolidBrush(RGB(30, 30, 30)));
+        clock.draw();
         EndPaint(hWnd, &ps);
     }
     break;
