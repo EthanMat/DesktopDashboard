@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="Backdrop/Backdrop.vcxproj" Id="95295722-19d5-4576-8651-af6674ede84c" />
-</Solution>

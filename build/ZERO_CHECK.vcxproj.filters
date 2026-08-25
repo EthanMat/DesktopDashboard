@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\CMakeFiles\160734f01d4944ca0e257dcdf5fa046a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B223A4FC-E005-3D69-BC79-CC2005D155B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
