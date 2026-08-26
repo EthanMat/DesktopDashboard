@@ -9,6 +9,11 @@
     <CustomBuild Include="C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\src\app.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{74801B86-0EE6-3F97-BC64-96A99C762EEC}</UniqueIdentifier>
     </Filter>
