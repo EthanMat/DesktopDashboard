@@ -166,3 +166,123 @@
 2026-08-26 23:23:38.220: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-08-26 23:23:38.220: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-08-26 23:24:01.648: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 03:43:16.391: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 03:43:16.391: [INFO] Profiles total count: 1
+2026-08-28 03:43:16.392: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 03:43:16.392: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 03:43:16.392: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 03:43:16.392: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 03:43:16.392: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 03:43:16.392: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 03:43:16.392: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 03:43:21.358: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:32:59.946: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:32:59.946: [INFO] Profiles total count: 1
+2026-08-28 04:32:59.947: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:32:59.947: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:32:59.947: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:32:59.947: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:32:59.947: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:32:59.947: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:32:59.947: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:33:03.540: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:33:28.812: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:33:28.813: [INFO] Profiles total count: 1
+2026-08-28 04:33:28.813: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:33:28.813: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:33:28.813: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:33:28.813: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:33:28.813: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:33:28.813: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:33:28.813: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:33:31.479: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:34:55.186: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:34:55.186: [INFO] Profiles total count: 1
+2026-08-28 04:34:55.186: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:34:55.186: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:34:55.186: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:34:55.187: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:34:55.187: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:34:55.187: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:34:55.187: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:35:06.958: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:36:06.178: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:36:06.179: [INFO] Profiles total count: 1
+2026-08-28 04:36:06.179: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:36:06.179: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:36:06.179: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:36:06.179: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:36:06.179: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:36:06.179: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:36:06.179: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:36:12.373: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:40:48.630: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:40:48.630: [INFO] Profiles total count: 1
+2026-08-28 04:40:48.630: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:40:48.630: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:40:48.630: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:40:48.631: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:40:48.631: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:40:48.631: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:40:48.631: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:40:56.700: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:41:32.243: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:41:32.243: [INFO] Profiles total count: 1
+2026-08-28 04:41:32.243: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:41:32.243: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:41:32.243: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:41:32.243: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:41:32.243: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:41:32.243: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:41:32.243: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:42:05.288: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:42:28.262: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:42:28.262: [INFO] Profiles total count: 1
+2026-08-28 04:42:28.262: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:42:28.262: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:42:28.263: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:42:28.263: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:42:28.263: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:42:28.263: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:42:28.263: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:42:46.880: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:44:03.958: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:44:03.958: [INFO] Profiles total count: 1
+2026-08-28 04:44:03.959: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:44:03.959: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:44:03.959: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:44:03.959: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:44:03.959: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:44:03.959: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:44:03.959: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:44:08.890: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:44:58.377: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:44:58.377: [INFO] Profiles total count: 1
+2026-08-28 04:44:58.378: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:44:58.378: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:44:58.378: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:44:58.378: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:44:58.378: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:44:58.378: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:44:58.378: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:45:06.732: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:45:18.222: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:45:18.222: [INFO] Profiles total count: 1
+2026-08-28 04:45:18.223: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:45:18.223: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:45:18.223: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:45:18.223: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:45:18.223: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:45:18.223: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:45:18.223: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:45:21.583: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:48:01.346: [INFO] CurrentProfilePath: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:48:01.346: [INFO] Profiles total count: 1
+2026-08-28 04:48:01.346: [INFO] Profile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:48:01.346: [INFO] LastUsedProfileDir: C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default
+2026-08-28 04:48:01.346: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\ethma\Documents\Ethan_work\home\Ethan_codes\Backdrop\build\Debug\Backdrop.exe.WebView2\EBWebView\Default lastActive=2026-08-26T22:54:52.726Z
+2026-08-28 04:48:01.346: [INFO] OnDoneLoading sync enabled: 0
+2026-08-28 04:48:01.346: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-28 04:48:01.346: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-28 04:48:01.347: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-28 04:49:01.327: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

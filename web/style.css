@@ -2,7 +2,7 @@
     padding: 25px;
     background-color: #333;
     border-radius: 25px;
-    position: left;
+    float: left;
     margin: 30px;
     margin-right: auto;
     margin-bottom: auto;
@@ -14,7 +14,7 @@ html, body {
     height: 100%;
     background: #1e1e1e;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
 }
 
 .container {
@@ -67,4 +67,9 @@ p {
 
 #hidden {
     display: none;
+}
+
+#clock{
+    font-size: 48px;
+    margin: auto;
 }
