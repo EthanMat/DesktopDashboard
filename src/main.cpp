@@ -194,7 +194,7 @@ void InitializeWebView(HWND hwnd)
                             // ------------------------------------------------
 
                             webView->Navigate(
-                                L"file:///C:/Users/ethma/Documents/Ethan_work/home/Ethan_codes/Backdrop/web/index.html"
+                                L"file:///C:/Users/ethma/Documents/Ethan_work/home/Ethan_codes/Backdrop/src/web/index.html"
                             );
 
                             return S_OK;

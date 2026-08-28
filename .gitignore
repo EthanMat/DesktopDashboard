@@ -1,1 +1,33 @@
+# Build output (CMake + Visual Studio)
+/build/
+/out/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+_deps/
+
+# Visual Studio
 .vs/
+*.vcxproj.user
+*.sdf
+*.opensdf
+*.suo
+*.sln.docstates
+
+# Compiled binaries / debug artifacts
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.recipe
+*.tlog
+*.res
+
+# WebView2 runtime user-data folder (created next to the exe at runtime —
+# cache, cookies, history, leveldb, etc. This is what's currently bloating your repo)
+*.WebView2/

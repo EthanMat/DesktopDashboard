@@ -12,6 +12,10 @@ function updateClock() {
         hours -= 12;
     }
 
+    if (hours == 0) {
+        hours = 12;
+    }
+
     // Format the time as HH:MM:SS
     var formattedTime = hours.toString().padStart(2, '0') + ':' +
                         minutes.toString().padStart(2, '0') + ':' +
