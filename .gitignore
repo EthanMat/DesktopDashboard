@@ -31,3 +31,6 @@ _deps/
 # WebView2 runtime user-data folder (created next to the exe at runtime —
 # cache, cookies, history, leveldb, etc. This is what's currently bloating your repo)
 *.WebView2/
+
+#Removes the config file from the repo
+config.txt

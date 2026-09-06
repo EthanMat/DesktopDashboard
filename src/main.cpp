@@ -3,6 +3,7 @@
 #include <windows.h>
 #include <wrl.h>
 #include <WebView2.h>
+#include <string>
 
 using namespace Microsoft::WRL;
 
@@ -186,15 +187,47 @@ void InitializeWebView(HWND hwnd)
                             // Make WebView2 fill the entire window.
                             ResizeWebView(hwnd);
 
-                            // ------------------------------------------------
-                            // Load our HTML page.
-                            //
-                            // This path is temporary. We'll make it
-                            // automatically locate the web folder later.
-                            // ------------------------------------------------
+                            wchar_t exePath[MAX_PATH];
+                            GetModuleFileNameW(nullptr, exePath, MAX_PATH);
+
+                            std::wstring webFolder = exePath;
+                            webFolder = webFolder.substr(0, webFolder.find_last_of(L"\\/")) + L"\\web";
+
+                            ComPtr<ICoreWebView2_3> webView3;
+                            HRESULT asResult = webView.As(&webView3);
+
+                            if (FAILED(asResult))
+                            {
+                                MessageBoxW(
+                                    hwnd,
+                                    L"Failed to query ICoreWebView2_3 interface.",
+                                    L"Backdrop",
+                                    MB_OK | MB_ICONERROR
+                                );
+
+                                return asResult;
+                            }
+
+                            HRESULT vhResult = webView3->SetVirtualHostNameToFolderMapping(
+                                L"backdrop.local",
+                                webFolder.c_str(),
+                                COREWEBVIEW2_HOST_RESOURCE_ACCESS_KIND_DENY_CORS
+                            );
+
+                            if (FAILED(vhResult))
+                            {
+                                MessageBoxW(
+                                    hwnd,
+                                    L"Failed to map virtual host folder.",
+                                    L"Backdrop",
+                                    MB_OK | MB_ICONERROR
+                                );
+
+                                return vhResult;
+                            }
 
                             webView->Navigate(
-                                L"file:///C:/Users/ethma/Documents/Ethan_work/home/Ethan_codes/Backdrop/src/web/index.html"
+                                L"https://backdrop.local/index.html"
                             );
 
                             return S_OK;
