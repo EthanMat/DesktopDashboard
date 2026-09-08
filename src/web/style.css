@@ -73,3 +73,8 @@ p {
     font-size: 48px;
     margin: auto;
 }
+
+#calendar-events {
+    font-size: 20px;
+    margin-top: 10px;
+}
