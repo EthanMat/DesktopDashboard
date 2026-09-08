@@ -1,8 +1,13 @@
 import ICAL from "../vendor/ical.js";
-import { readFile } from 'node:fs/promises';
 
 async function fetchIcsData(url) {
   const response = await fetch(url);
+  if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+  return response.text();
+}
+
+async function readFile(filePath) {
+  const response = await fetch(filePath);
   if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
   return response.text();
 }
@@ -23,7 +28,7 @@ function parseIcs(icsText) {
 }
 
 //Temp check for testing
-const events = parseIcs(await fetchIcsData(await readFile("../../config.txt", "utf-8")));
+const events = parseIcs(await fetchIcsData(await readFile("./config.txt")));
 const list = document.getElementById('calendar');
 events.forEach(e => {
   const row = document.createElement('div');
@@ -31,3 +36,4 @@ events.forEach(e => {
   row.innerHTML = `<span class="event-time">${e.startDate.toLocaleTimeString([], {hour:'numeric', minute:'2-digit'})}</span><span class="event-title">${e.title}</span>`;
   list.appendChild(row);
 });
+console.log(events);

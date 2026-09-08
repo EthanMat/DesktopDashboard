@@ -15,6 +15,12 @@ add_executable(Backdrop WIN32
     src/app.rc
 )
 
+add_custom_command(TARGET Backdrop POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        "${CMAKE_SOURCE_DIR}/src"
+        "$<TARGET_FILE_DIR:Backdrop>/web"
+)
+
 # WebView2 headers
 target_include_directories(Backdrop PRIVATE
     "${WEBVIEW2_ROOT}/include"
