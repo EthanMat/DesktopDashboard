@@ -4,6 +4,7 @@
 #include <wrl.h>
 #include <WebView2.h>
 #include <string>
+#include <WebView2EnvironmentOptions.h>
 
 using namespace Microsoft::WRL;
 
@@ -118,11 +119,15 @@ int WINAPI wWinMain(
 
 void InitializeWebView(HWND hwnd)
 {
+
+    auto options = Microsoft::WRL::Make<CoreWebView2EnvironmentOptions>();
+    options->put_AdditionalBrowserArguments(L"--disable-web-security");
+
     HRESULT result = CreateCoreWebView2EnvironmentWithOptions(
         nullptr,
         nullptr,
-        nullptr,
-
+        options.Get(),
+        
         Callback<
             ICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler
         >(
