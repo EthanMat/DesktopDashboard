@@ -9,7 +9,7 @@ async function fetchIcsData(url) {
 async function readFile(filePath) {
   const response = await fetch(filePath);
   if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-  return response.text();
+  return (await response.text()).split('\n')[0];
 }
 
 function parseIcs(icsText) {
@@ -36,19 +36,25 @@ const list = document.getElementById('calendar');
 //   row.innerHTML = `<span class="event-time">${e.startDate.toLocaleTimeString([], {hour:'numeric', minute:'2-digit'})}</span><span class="event-title">${e.title}</span>`;
 //   list.appendChild(row);
 // });
-
+console.log(events);
 for (const event of events) {
   if (event.startDate < new Date()) continue; // Skip past events
   if (event.startDate > new Date(Date.now() + 1 * 24 * 60 * 60 * 1000)) break; // Skip events more than a day away
   const eventElement = document.createElement('div');
   eventElement.className = 'calendar-event';
-  const timeUntilEvent = Math.max(0, Math.floor((event.startDate - new Date()) / (1000 * 60))); // Time until event in minutes
+  const timeUntilEvent = Math.round((event.startDate - new Date()) / (1000 * 60)); // Time until event in minutes
   if (timeUntilEvent <= 60) {
-    eventElement.style.color = 'red'; // Highlight events within the next hour
     eventElement.innerHTML = `<h4>${event.title} - ${event.location}</h4><p>${event.startDate.toLocaleTimeString([], {hour: 'numeric', minute: '2-digit'})} - in ${timeUntilEvent} minutes</p>`;
+    eventElement.style.color = 'red';
   } else {
-    eventElement.innerHTML = `<h4>${event.title} - ${event.location}</h4><p>${event.startDate.toLocaleTimeString([], {hour: 'numeric', minute: '2-digit'})} - in ${Math.floor(timeUntilEvent / 60)} hours</p>`;
+    eventElement.innerHTML = `<h4>${event.title} - ${event.location}</h4><p>${event.startDate.toLocaleTimeString([], {hour: 'numeric', minute: '2-digit'})} - in ${Math.round(timeUntilEvent / 60)} hours</p>`;
   }
   list.appendChild(eventElement);
 }
-console.log(events);
+
+if (list.children.length === 0) {
+  const noEventsElement = document.createElement('div');
+  noEventsElement.className = 'no-events';
+  noEventsElement.textContent = 'No upcoming events within the next 24 hours.';
+  list.appendChild(noEventsElement);
+}

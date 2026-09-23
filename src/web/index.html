@@ -19,14 +19,24 @@
     -->
 
     <div class="container">
-        <div class="widget">
+        <div class="widget" style="grid-row: 1; grid-column: 1;">
             <p id="clock"></p>
             <script src="scripts/clock.js"></script>
         </div>
-        <div class="widget">
-            <h3>Calendar</h3>
+        <div class="widget" style="grid-row: 2; grid-column: 1;">
+            <h3 style="margin-top: 0px;">Calendar</h3>
+            <hr style="border: 0; border-top: 1px solid #444; margin: 1px;">
             <div id="calendar"></div>
             <script type="module" src="scripts/calendar.js"></script>
+        </div>
+        <div class="widget" style="grid-row: 2 / 3; grid-column: 2 / 3; width: 400px; height: 400px;">
+            <!--AI widget here (remove the height and width settings in style)-->
+        </div>
+        <div class="widget" style="grid-row: 1; grid-column: 4;">
+            <h3 style="margin-top: 0px;">Weather</h3>
+            <hr style="border: 0; border-top: 1px solid #444; margin: 1px;">
+            <div id="weather"></div>
+            <script type="module" src="scripts/weather.js"></script>
         </div>
     </div>
 
